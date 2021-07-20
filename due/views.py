@@ -245,8 +245,8 @@ class Games:
             username = req.POST['username_data']
             password = req.POST['password_data']
 
-            if username == 'ukc':
-                if password == 'will':
+            if username == 'XXX':
+                if password == 'XXX':
                     shelf.params['pass'] = 'OK'
                     return redirect(to='/due/look')
 
