@@ -10,7 +10,7 @@ get：獲得したカードのスペル<br>
 
 https://user-images.githubusercontent.com/76951687/124795658-39e9bd80-df8b-11eb-84ca-a01655a416a8.mov
 
-同時に複数の対戦可能（同時に撮影ができませんでした）<br>
+同時に複数の対戦可能（撮影は同時にできませんでしたが，同じ時間帯に対戦しています）<br>
 
 https://user-images.githubusercontent.com/76951687/124150621-afa5e300-dacc-11eb-9026-f7457f8ecae2.mp4
 
