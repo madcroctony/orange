@@ -10,7 +10,7 @@ turn：1，2の場合，操作できる。3，100の場合，loadボタンをク
 enemy：ユーザー名：ユーザーの対戦相手<br>
 get：獲得したカードのアルファベット<br>
 
-https://user-images.githubusercontent.com/76951687/124795658-39e9bd80-df8b-11eb-84ca-a01655a416a8.mov
+https://user-images.githubusercontent.com/76951687/127897869-bb0aebf9-9a18-4fb1-8963-5ca0eb613c64.mov
 
 同時に複数の対戦可能（撮影は同時にできませんでしたが，同じ時間帯に対戦しています）<br>
 
