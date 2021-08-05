@@ -8,13 +8,14 @@ import random
 class Games:
     def __init__(shelf):
         shelf.H = 6
-        shelf.W = 6
+        shelf.W = 8
 
         shelf.name = ''
         shelf.count = 0
         shelf.turn = 0
         shelf.who = {}
-        shelf.board = 'abcdefghijklmnopqrabcdefghijklmnopqr'
+        spell = 'abcdefghijklmnopqrstuvwx'
+        shelf.board = spell*2
         """
         shelf.board = []
         for i in range(1, 65):
