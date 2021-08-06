@@ -26,12 +26,14 @@
                                 {% if column == '*' %}
                                     <form action="{% url 'due:cot' %}" method="post">
                                         {% csrf_token %}
-                                        <input type="submit" name="hit" value="{{ forloop.parentloop.counter0 }}/{{ forloop.counter0 }}" class="btn btn-primary" style="margin:9px;height:100px;width:80px">
+                                        <font face='Century' size='6'><input type="submit" name="hit" value="{{ forloop.parentloop.counter0 }}/{{ forloop.counter0 }}"
+                                            style="margin:9px; height:100px; width:100px; text-align:center;"></font>
                                     </form>
 
                                 {% else %}
 
-                                    <input type="submit" name="hit" value="{{ column }}" class="btn btn-dark" style="margin:9px;height:100px;width:80px">
+                                    <font face='Century' size='6'><input type="submit" name="hit" value="{{ column }}"
+                                        style="margin:9px; height:100px; width:100px; background-color:black; color:white; text-align:center;"></font>
 
                                 {% endif %}
 
@@ -91,12 +93,12 @@
                     setTimeout(doReload, 2500);
                 });
             </script>
-
+            <!--
             {% if message %}
             <br>
                 message = {{ message }}
             {% endif %}
-
+            -->
         </div>
     </body>
 </html>
